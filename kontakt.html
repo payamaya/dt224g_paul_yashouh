@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Startsida</a></li>
+        <li><a href="hobby.html">Hobby</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Kontakt Sida</h1>
+    <section>
+      <form method="post">
+        <h2>Registrera dig</h2>
+        <label for="name">Namn</label>
+        <input type="text" id="name" name="name" placeholder="John Doe">
+        <br>
+        <label for="age">Åldere</label>
+        <input type="number" id="age" name="age" min="0" max="100" placeholder="ålder">
+        <br>
+        <label for="email">E-post</label>
+        <input type="text" id="email" name="email" required placeholder="example@email.com">
+        <br>
+        <label for="password">Lösenord</label>
+        <input type="password" id="password" name="password" placeholder="Lösenord" required>
+        <br>
+        <label for="textarea">Meddelande</label>
+        <textarea id="textarea" name="textarea" cols="5"></textarea>
+        <fieldset>
+          <legend>Kön</legend>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Man</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Kvinna</label>
+          <input type="radio" id="annat" name="gender" value="annat">
+          <label for="annat">Vill ej uppger</label>
+        </fieldset>
+        <input type="checkbox" name="checkbox" id="checkbox"> <label for="checkbox">Godkänn villkoren och
+          policyerna.</label>
+        <br>
+        <button type="submit">Registrera</button>
+        <hr>
+        <p>Har du redan ett konto?</p>
+        <button type="submit">Logga in</button>
+      </form>
+    </section>
+    <p>"Du kan också nå mig direkt på <a href="mailto:student_id@student.miun.se">[student_id@student.miun.se]"</a></p>
+  </main>
+  <footer>&#169; 2026 Paul Yashouh</footer>
+</body>
+
+</html>
