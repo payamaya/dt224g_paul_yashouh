@@ -31,5 +31,5 @@ Denna webplats är byggd med HTML och CSS. Det är en presentationssida där jag
 5. Om du vill exkludera någon fil i projektet från versionshanteringen, hur gör du då?
    > För att exkludera någon fil till example .env fil, använder man en .gitignore fil. I .gitignore skriver man namnet på filen för att säga till Git att inte spåra eller inkludera själva filen i versionhanteringen.
 
-Netlify: <https://laboration2-versionhantering.netlify.app/>
-Vercel: <https://dt224g-paul-yashouh.vercel.app/>
+- Netlify: <https://laboration2-versionhantering.netlify.app/>
+- Vercel: <https://dt224g-paul-yashouh.vercel.app/>
