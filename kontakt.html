@@ -11,7 +11,7 @@
 <body>
   <header>
     <nav>
-      <ul>
+      <ul class="header-list">
         <li><a href="index.html">Startsida</a></li>
         <li><a href="hobby.html">Hobby</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
@@ -19,8 +19,8 @@
     </nav>
   </header>
   <main>
-    <h1>Kontakt Sida</h1>
-    <section>
+    <h1 class="title">Kontakt Sida</h1>
+    <section class="kontakt-section">
       <form method="post">
         <h2>Registrera dig</h2>
         <label for="name">Namn</label>
@@ -46,16 +46,21 @@
           <input type="radio" id="annat" name="gender" value="annat">
           <label for="annat">Vill ej uppger</label>
         </fieldset>
-        <input type="checkbox" name="checkbox" id="checkbox"> <label for="checkbox">Godkänn villkoren och
-          policyerna.</label>
-        <br>
+        <div class="checkox-conatiner">
+          <input type="checkbox" name="checkbox" id="checkbox">
+          <label class="checkbox" for="checkbox">Godkänn villkoren
+            och
+            policyerna.</label>
+        </div>
         <button type="submit">Registrera</button>
-        <hr>
-        <p>Har du redan ett konto?</p>
+        <div class="kontakt-login">
+          <p>Har du redan ett konto?</p>
+        </div>
         <button type="submit">Logga in</button>
       </form>
     </section>
-    <p>"Du kan också nå mig direkt på <a href="mailto:student_id@student.miun.se">[student_id@student.miun.se]"</a></p>
+    <p class="kontakt-para">"Du kan också nå mig direkt på<a href="mailto:student_id@student.miun.se">
+        [student_id@student.miun.se]"</a></p>
   </main>
   <footer>&#169; 2026 Paul Yashouh</footer>
 </body>
