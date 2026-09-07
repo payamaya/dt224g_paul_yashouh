@@ -20,6 +20,14 @@ li {
 }
 a {
   text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(71, 71, 71);
+}
+.wiki {
+  padding-block: 2rem;
 }
 img {
   display: inline-block;
@@ -27,4 +35,182 @@ img {
   font-size: 100%;
   vertical-align: baseline;
   font-style: inherit;
+}
+main {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 3.2rem;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.hobby-para {
+  padding: 1rem;
+  margin-inline: 1rem;
+}
+.image-container > h2 {
+  margin-top: 2rem;
+}
+.main-para {
+  padding: 2rem;
+  text-align: center;
+}
+.home-card_image {
+  max-width: 300px;
+  max-height: 300px;
+}
+.card-container > h2 {
+  margin-block: 2rem;
+}
+.header-list {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(39, 27, 10);
+  justify-content: space-around;
+  padding: 2rem;
+}
+.header-list a {
+  color: rgb(214, 143, 36);
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-image {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 2rem;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgb(46, 46, 46);
+}
+
+.home-card_para {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.card-image > h2 {
+  margin-top: 2rem;
+}
+/* Kontkat */
+.kontakt-section {
+  margin: 1rem;
+  align-items: center;
+  padding: 1em;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgb(46, 46, 46);
+}
+.kontakt-para {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.kontakt-para a {
+  color: rgb(110, 66, 0);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: stretch;
+  width: 300px;
+}
+form h2 {
+  padding-bottom: 1rem;
+}
+fieldset {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: bisque;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgb(46, 46, 46);
+  /* width: 200px; */
+}
+input {
+  padding: 1rem;
+}
+label {
+  margin-bottom: 0.5rem;
+}
+.checkbox {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+.checkox-conatiner {
+  margin-block: 1rem;
+}
+.kontakt-login {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+/* Tabel */
+table,
+caption,
+tfoot,
+th,
+td,
+tr {
+  border: 1px solid rgb(214, 143, 36);
+  align-items: center;
+}
+table {
+  max-width: stretch;
+  width: 800px;
+  margin: 2rem;
+}
+th,
+td,
+caption {
+  padding: 10px;
+  text-align: left;
+}
+caption,
+tfoot {
+  align-items: center;
+}
+caption {
+  text-align: center;
+  font-weight: 600;
+}
+
+tfoot td,
+tfoot th {
+  text-align: center;
+  font-weight: 600;
+}
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding-block: 2rem;
+  background-color: rgb(255, 207, 135);
+  font-weight: 600;
 }
