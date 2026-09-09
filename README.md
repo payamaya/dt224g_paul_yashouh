@@ -8,15 +8,15 @@ Denna webplats är byggd med HTML och CSS. Det är en presentationssida där jag
 
 - HTML5
   `semantic HTML (header, nav, ul, li, main, h1, h2, h3, p, section, table, footer)`
-  För att skapa en tillgänglig tydliga struktur på webplatsen.
+  För att skapa en tillgänglig tydliga struktur och innehåll på webplatsen.
 - CSS
   `Använt den endimmesionella Flexbox-modellen för layouten`
-  För att sidan ska se fint ut.
+  För att sidan ska se fint ut och för att styra hur innehållet presenteras och utformas.
 - Git
   `Lokal versionshantering via terminalen`
   För att spara olika versioner av projektet under arbetsgång.
   `Github`
-  För att lagra projektets källkod i molnet, möjliggör smidigt samarbete i grupper
+  För att lagra projektets källkod i molnet, möjliggör smidigt samarbete i grupper.
 
 ### Vad är skillnaden mellan Git och Github
 
