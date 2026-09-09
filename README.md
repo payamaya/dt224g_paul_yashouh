@@ -4,7 +4,7 @@ Denna webplats är byggd med HTML och CSS. Det är en presentationssida där jag
 
 ---
 
-## Vilka verktyg jag har använt
+## Vilka verktyg vi har använts
 
 - HTML5
   `semantic HTML (header, nav, ul, li, main, h1, h2, h3, p, section, table, footer)`
