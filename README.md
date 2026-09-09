@@ -14,7 +14,7 @@ Denna webplats är byggd med HTML och CSS. Det är en presentationssida där jag
 - CSS
   `Använt den endimmesionella Flexbox-modellen för layouten`
 
-  ##### För att sidan ska se fint ut.
+  ##### För att sidan ska se fint ut och hur den ska representeras och utformas.
 
 - Git
   `Lokal versionshantering via terminalen`
